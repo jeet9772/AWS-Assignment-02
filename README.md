@@ -143,6 +143,10 @@ The generated WAR file:
 
 ```text
 target/Spring3HibernateApp.war
+
+
+<img width="1440" height="900" alt="Screenshot 2026-09-24 at 6 03 49 PM" src="https://github.com/user-attachments/assets/71a90ed9-ca07-4839-9810-663d3a3912b2" />
+
 ```
 
 ---
