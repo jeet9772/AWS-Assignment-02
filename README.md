@@ -125,6 +125,8 @@ git clone https://github.com/opstree/spring3hibernate.git
 cd spring3hibernate
 ```
 
+<img width="1440" height="900" alt="Screenshot 2026-09-24 at 6 00 18 PM" src="https://github.com/user-attachments/assets/401f2477-e6cd-4b73-bb08-9ddfcadde6c0" />
+
 ---
 
 ## Step 4: Build the Application
