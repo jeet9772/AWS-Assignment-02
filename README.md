@@ -263,6 +263,9 @@ The Launch Template uses the application AMI.
 
 ---
 
+<img width="1440" height="900" alt="Screenshot 2026-09-24 at 6 18 56 PM" src="https://github.com/user-attachments/assets/c81d7bd5-09ec-4c97-b9b0-e55ad72491c5" />
+
+
 ## Step 2: Create Auto Scaling Group
 
 ASG configuration:
@@ -278,6 +281,9 @@ The Auto Scaling Group manages the application instances.
 
 ---
 
+<img width="1440" height="900" alt="Screenshot 2026-09-24 at 6 21 41 PM" src="https://github.com/user-attachments/assets/e50d591e-d6ee-4298-800b-4bf7e4116164" />
+
+
 # Rolling Deployment – V1
 
 The first version of the application was deployed using the initial AMI.
@@ -291,6 +297,9 @@ Sample WebApp CRUD Example for CI
 The application was verified on the EC2 instance.
 
 ---
+
+<img width="1440" height="900" alt="assignment -2 ka h 1" src="https://github.com/user-attachments/assets/03ea29f8-ebd6-4d97-8528-d7b2386f4f7b" />
+
 
 # Rolling Deployment – V2
 
@@ -307,6 +316,9 @@ Rolling Deployment - Version 2
 
 ---
 
+<img width="1440" height="900" alt="Screenshot 2026-09-24 at 6 27 44 PM" src="https://github.com/user-attachments/assets/ba670637-97cd-41d6-a9d6-ea27eed78684" />
+
+
 ## Step 2: Build V2
 
 ```bash
@@ -320,6 +332,9 @@ target/Spring3HibernateApp.war
 ```
 
 ---
+
+<img width="1440" height="900" alt="Screenshot 2026-09-24 at 6 30 58 PM" src="https://github.com/user-attachments/assets/7971d7df-861e-4db6-8f71-5dbad424c695" />
+
 
 ## Step 3: Upload V2 Artifact to S3
 
@@ -339,6 +354,8 @@ s3://jeetendra-assignment2-deployment-2026/artifacts/
 ```
 
 ---
+<img width="1440" height="900" alt="Screenshot 2026-09-24 at 6 33 18 PM" src="https://github.com/user-attachments/assets/de9e1387-ac40-4bea-9e37-a17b07d86b5a" />
+
 
 ## Step 4: Create V2 AMI
 
@@ -356,7 +373,8 @@ AMI ID:
 ami-0bbbc761f802b4f33
 ```
 
----
+<img width="1440" height="900" alt="Screenshot 2026-09-24 at 6 34 18 PM" src="https://github.com/user-attachments/assets/6e363cdd-18cf-44b8-b3f3-0effbabad424" />
+
 
 ## Step 5: Create New Launch Template Version
 
@@ -370,6 +388,9 @@ Instance Type: t3.micro
 ```
 
 ---
+
+<img width="1440" height="900" alt="Screenshot 2026-09-24 at 6 35 17 PM" src="https://github.com/user-attachments/assets/bd3a1c25-c33e-4093-ad95-de27924dcf0c" />
+
 
 ## Step 6: Update Auto Scaling Group
 
@@ -387,6 +408,7 @@ Version:
 ```
 
 ---
+<img width="1440" height="900" alt="Screenshot 2026-09-24 at 6 37 31 PM" src="https://github.com/user-attachments/assets/e8fe417d-37a6-43c3-b5b6-0a37ac6203ae" />
 
 ## Step 7: Start Instance Refresh
 
@@ -413,6 +435,7 @@ V2 Instance Running
 Instance Refresh completed successfully.
 
 ---
+<img width="1440" height="900" alt="Screenshot 2026-09-24 at 6 38 03 PM" src="https://github.com/user-attachments/assets/340f3e3f-7db7-46b5-af13-0db30f0ef2af" />
 
 ## Step 8: Verify V2
 
@@ -432,6 +455,8 @@ Rolling Deployment - Version 2
 ```
 
 ---
+<img width="1440" height="900" alt="Screenshot 2026-09-24 at 5 28 04 PM" src="https://github.com/user-attachments/assets/4fc23e7a-f54a-4010-941f-f9e44093cc60" />
+
 
 # 3. Amazon S3 – Static Assets
 
@@ -459,6 +484,8 @@ jeetendra-assignment2-deployment-2026/
 └── logs/
 ```
 
+<img width="1440" height="900" alt="Screenshot 2026-09-24 at 6 39 40 PM" src="https://github.com/user-attachments/assets/53a40cc5-990d-4367-9625-e909fd08fcaa" />
+
 ---
 
 ## S3 Asset
@@ -482,6 +509,8 @@ h2 {
 ```
 
 ---
+<img width="1440" height="900" alt="Screenshot 2026-09-24 at 6 40 19 PM" src="https://github.com/user-attachments/assets/cc0b9fa6-2755-4be9-b780-f3f476a8fbc8" />
+
 
 # IAM Role for S3 Access
 
@@ -508,6 +537,8 @@ aws sts get-caller-identity
 ```
 
 ---
+<img width="1440" height="900" alt="Screenshot 2026-09-24 at 6 41 23 PM" src="https://github.com/user-attachments/assets/1c5f7f1f-8636-4a6e-8f8b-1d1d75e6fd27" />
+
 
 # Retrieve CSS from S3
 
@@ -526,6 +557,8 @@ cat /tmp/style.css
 ```
 
 ---
+<img width="1440" height="900" alt="Screenshot 2026-09-24 at 6 42 33 PM" src="https://github.com/user-attachments/assets/43101103-2437-4615-92c5-3079446d581f" />
+
 
 # Configure Application to Use CSS
 
@@ -543,6 +576,7 @@ The application `index.html` was configured with:
 ```
 
 ---
+<img width="1440" height="900" alt="Screenshot 2026-09-24 at 5 28 04 PM" src="https://github.com/user-attachments/assets/30dba2f1-656e-40f0-85b0-283a5c54450b" />
 
 # Verify Static Asset
 
