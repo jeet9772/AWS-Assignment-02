@@ -210,6 +210,9 @@ The AMI contains the configured application environment, Java, Maven, Tomcat and
 
 ---
 
+<img width="1440" height="900" alt="Screenshot 2026-09-24 at 6 13 03 PM" src="https://github.com/user-attachments/assets/f759d45c-7b64-4eb7-8457-85f0a2f400d9" />
+
+
 ## Step 8: Recreate Deployment
 
 A new EC2 instance was launched from the created AMI.
