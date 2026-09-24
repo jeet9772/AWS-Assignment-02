@@ -183,12 +183,10 @@ ss -lntp | grep 8080
 sudo cp target/Spring3HibernateApp.war \
 /opt/tomcat/apache-tomcat-9.0.113/webapps/
 ```
+<img width="1440" height="900" alt="Screenshot 2026-09-24 at 6 10 33 PM" src="https://github.com/user-attachments/assets/bcd4717b-c5b4-4fc5-b5a6-3fbce135a283" />
 
 Application URL:
 
-```text
-http://<EC2-PUBLIC-IP>:8080/Spring3HibernateApp/
-```
 
 ---
 
