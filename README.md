@@ -174,6 +174,9 @@ ss -lntp | grep 8080
 
 ---
 
+<img width="1440" height="900" alt="Screenshot 2026-09-24 at 6 07 26 PM" src="https://github.com/user-attachments/assets/500dc852-b2d4-45b9-85f9-b65290de6a85" />
+
+
 ## Step 6: Deploy WAR File
 
 ```bash
