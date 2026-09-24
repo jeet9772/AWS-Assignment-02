@@ -113,6 +113,9 @@ mvn -version
 git --version
 ```
 
+
+<img width="1440" height="900" alt="Screenshot 2026-09-24 at 5 56 03 PM" src="https://github.com/user-attachments/assets/ec1a3eb1-9eb9-40bc-8bb0-0ad68a0f20ec" />
+
 ---
 
 ## Step 3: Clone Application Repository
