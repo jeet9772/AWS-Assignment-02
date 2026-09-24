@@ -94,6 +94,9 @@ OS: Amazon Linux 2023
 Region: ap-south-1
 ```
 
+
+<img width="1440" height="900" alt="Screenshot 2026-09-24 at 5 54 00 PM" src="https://github.com/user-attachments/assets/d8ffb46b-a804-4326-91a9-35ad16b51d6f" />
+
 ---
 
 ## Step 2: Install Required Packages
