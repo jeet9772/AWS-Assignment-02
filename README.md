@@ -238,6 +238,9 @@ Application was verified successfully after recreation.
 
 ---
 
+<img width="1440" height="900" alt="Screenshot 2026-09-24 at 6 15 54 PM" src="https://github.com/user-attachments/assets/feefebfe-85a0-4be8-bbc4-c373cc6a88f4" />
+
+
 # 2. Rolling Deployment
 
 ## Step 1: Create Launch Template
